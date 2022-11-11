@@ -1,0 +1,13 @@
+package allianz;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class exampl1 {
+	@Test
+	void user() {
+		RestAssured.baseURI = "";
+	}
+
+}

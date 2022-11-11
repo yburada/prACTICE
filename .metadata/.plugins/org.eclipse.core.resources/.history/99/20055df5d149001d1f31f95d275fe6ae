@@ -1,0 +1,17 @@
+package staticConcept;
+
+class con{
+	{
+		System.out.println("Object created");
+	}
+}
+
+public class explain_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		con a = new con();
+	}
+
+}

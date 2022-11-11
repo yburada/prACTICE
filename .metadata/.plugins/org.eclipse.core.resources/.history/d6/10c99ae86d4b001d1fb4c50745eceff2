@@ -1,0 +1,23 @@
+package Inheritance;
+
+
+class A{
+	public A(int a, int b) {
+		System.out.println("A con");
+	}
+}
+class B extends A{
+	public B(int a, int b) {
+		System.out.println(" B Con");
+	}
+}
+public class example_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		B b = new B();
+		
+	}
+
+}

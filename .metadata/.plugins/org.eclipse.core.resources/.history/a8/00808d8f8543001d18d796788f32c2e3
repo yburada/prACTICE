@@ -1,0 +1,30 @@
+package Arrays;
+
+
+class cons{
+	private static int a ;
+	private static int b;
+	public static int getA() {
+		return a;
+	}
+	public static int getB() {
+		return b;
+	}
+	public cons() {
+		this(a,b);
+	}
+	public cons(int a , int b) {
+		this.a = 10;
+		this.b = 50;
+	}
+}
+public class constructor_example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        cons a = new cons();
+        System.out.println(a.getA());
+        System.out.println(a.getB());
+	}
+
+}

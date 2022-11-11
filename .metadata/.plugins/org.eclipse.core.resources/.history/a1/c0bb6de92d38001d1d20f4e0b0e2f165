@@ -1,0 +1,26 @@
+package allianz;
+
+import static org.testng.Assert.assertEquals;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class exampl1 {
+	@Test
+	void user() {
+		RestAssured.baseURI = "https://reqres.in/";
+		RequestSpecification httprequest = RestAssured.given();
+		Response rs = httprequest.request(Method.GET,"api/users/2");
+		System.out.println(rs.getBody().asPrettyString());
+		int actual_Status_Code = rs.getStatusCode();
+		int expected_Status_Code = 200;
+		assertEquals(actual_Status_Code, expected_Status_Code);
+		String id_Value = rs.getHeader("Content-Type");
+		System.out.println(id_Value.length());
+	}
+
+}

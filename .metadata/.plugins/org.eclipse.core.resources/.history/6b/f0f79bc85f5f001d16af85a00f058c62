@@ -1,0 +1,84 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class sortertpath {
+
+	static List<Integer> ls = new ArrayList<>();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		calc(N);
+		System.out.println(ls);
+	}
+	static int calc(int N){
+		//System.out.println(k);
+		int k = N;
+        if(k>=2000){
+        	System.out.println("here 2000");
+            ls.add(2000);
+            k=k-2000;
+            calc(k);
+        }
+        if(k>=500){
+        	System.out.println("here 500");
+            ls.add(500);
+            k=k-500;
+            calc(k);
+        }
+        if(k>=200){
+        	System.out.println("here 200");
+            ls.add(200);
+            k=k-200;
+            calc(k);
+        }
+        if(k>=100){
+        	System.out.println("here 100");
+            ls.add(100);
+            k=k-100;
+            calc(k);
+        }
+        if(k>=50){
+        	System.out.println("here 50");
+            ls.add(50);
+            k=k-50;
+            calc(k);
+        }
+        if(k>=20){
+        	System.out.println("here 20");
+            ls.add(20);
+            k=k-20;
+            calc(k);
+        }
+        if(k>=10){
+        	System.out.println("here 10");
+            ls.add(10);
+            k=k-10;
+            calc(k);
+        }
+        if(k>=5){
+        	System.out.println("here 5");
+            ls.add(5);
+            k=k-5;
+            calc(k);
+        }
+        if(k>=2){
+        	System.out.println("here 2");
+            ls.add(2);
+            k=k-2;
+            calc(k);
+        }
+        System.out.println("k: "+k+" ");
+        System.out.println(k>=1);
+        if(k>=1){
+        	System.out.println("here 1");
+            ls.add(1);
+            k=k-1;
+            calc(k);
+        }
+        return 0;
+}
+
+}
