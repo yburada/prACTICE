@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.configuration.Theme"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentReports"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
@@ -32,4 +31,8 @@
     <fullyQualifiedTypeName name="Junior_Dev.J_clalculator"/>
     <fullyQualifiedTypeName name="implementation.segregation"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="chumma"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

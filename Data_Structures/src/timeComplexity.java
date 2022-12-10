@@ -4,7 +4,7 @@ public class timeComplexity {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double currentTime = System.currentTimeMillis();
-		int sum =timeComplexity.firstWay(99999);
+		int sum =timeComplexity.firstWay(999999999);
 		System.out.println(System.currentTimeMillis()-currentTime);
 		System.out.println(sum);
 
